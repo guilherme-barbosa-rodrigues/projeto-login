@@ -36,6 +36,9 @@ section#login {
     height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5) ;
+
+    transition: width .3s, height 0.3s;
+    transition-timing-function: ease ;
 }
 section#login > div#imagem {
     background: url(../imagens/pexels-scott-webb-139198.jpg);
@@ -47,5 +50,11 @@ section#login > div#imagem {
 section#login > div#form {
     padding: 10px;
     display: block;
-    
+}
+div#form > h1 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+div#form > p { 
+    font-size: 0.8em;
 }
