@@ -28,7 +28,6 @@ section#login {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
     overflow: hidden;
 
     background-color: white;
@@ -39,6 +38,7 @@ section#login {
 
     transition: width .3s, height 0.3s;
     transition-timing-function: ease ;
+    transform: translate(-50%, -50%);
 }
 section#login > div#imagem {
     background: url(../imagens/pexels-scott-webb-139198.jpg);
@@ -84,7 +84,7 @@ div.campo > input {
     padding: 4px;
     border-radius: 8px;
     border: 0;
-    transform: translateY(-13.5px);
+    transform: translateY(-12.5px);
 }
 div.campo > input:focus-within {
     background-color: white;
