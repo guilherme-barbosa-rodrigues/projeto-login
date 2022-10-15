@@ -84,7 +84,7 @@ div.campo > input {
     padding: 4px;
     border-radius: 8px;
     border: 0;
-    transform: translateY(-12.5px);
+    transform: translateY(-13px);
 }
 div.campo > input:focus-within {
     background-color: white;
@@ -114,7 +114,7 @@ form > a.botao {
     border-radius: 7px;
     text-decoration: none;
     color: #295755;
-    padding-top: 7px;
+    padding-top: 8px;
     margin-top: 5px;
 }
 form > a.botao:hover {
